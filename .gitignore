@@ -1,7 +1,6 @@
 node_modules/
 dist/
 data/
-coverage/
 .env
 *.sqlite
 *.sqlite-journal
