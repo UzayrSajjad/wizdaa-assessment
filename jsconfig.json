@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2020",
+        "baseUrl": "./src",
+        "paths": {
+            "@common/*": [
+                "common/*"
+            ],
+            "@modules/*": [
+                "modules/*"
+            ],
+            "@config/*": [
+                "config/*"
+            ]
+        },
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
