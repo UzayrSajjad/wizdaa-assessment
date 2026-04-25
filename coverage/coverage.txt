@@ -1,0 +1,55 @@
+File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s       
+-------------------------------|---------|----------|---------|---------|-------------------------
+All files                      |   40.36 |    31.83 |   32.32 |   40.51 |                         
+ src                           |       0 |      100 |       0 |       0 |                         
+  app.module.js                |       0 |      100 |       0 |       0 | 1-47                    
+ src/common/enums              |     100 |      100 |     100 |     100 |                         
+  index.js                     |     100 |      100 |     100 |     100 |                         
+ src/common/filters            |       0 |        0 |       0 |       0 |                         
+  http-exception.filter.js     |       0 |        0 |       0 |       0 | 1-86                    
+ src/common/guards             |       0 |        0 |       0 |       0 |                         
+  api-key.guard.js             |       0 |        0 |       0 |       0 | 1-69                    
+ src/common/interceptors       |       0 |        0 |       0 |       0 |                         
+  logging.interceptor.js       |       0 |        0 |       0 |       0 | 1-56                    
+  transform.interceptor.js     |       0 |        0 |       0 |       0 | 1-35                    
+ src/common/middleware         |       0 |        0 |       0 |       0 |                         
+  idempotency.middleware.js    |       0 |        0 |       0 |       0 | 6-106                   
+ src/common/utils              |   95.23 |    83.78 |     100 |   95.08 |                         
+  date.utils.js                |   93.93 |    89.47 |     100 |   93.93 | 64,80                   
+  retry.utils.js               |   96.66 |    77.77 |     100 |   96.42 | 68                      
+ src/config                    |       0 |        0 |       0 |       0 |                         
+  database.config.js           |       0 |        0 |       0 |       0 | 15-43                   
+ src/modules/balance           |   73.77 |    67.74 |      80 |   74.35 |                         
+  balance.controller.js        |       0 |        0 |       0 |       0 | 8-71                    
+  balance.entity.js            |     100 |      100 |     100 |     100 |                         
+  balance.module.js            |       0 |      100 |     100 |       0 | 1-21                    
+  balance.service.js           |   94.56 |       84 |   94.11 |   96.55 | 302-307                 
+ src/modules/employee          |   16.04 |        0 |       0 |   17.33 |                         
+  employee.controller.js       |       0 |      100 |       0 |       0 | 12-84                   
+  employee.entity.js           |     100 |      100 |     100 |     100 |                         
+  employee.module.js           |       0 |      100 |     100 |       0 | 1-21                    
+  employee.service.js          |   19.23 |        0 |       0 |   21.73 | 21-150                  
+ src/modules/employee/dto      |       0 |      100 |     100 |       0 |                         
+  index.js                     |       0 |      100 |     100 |       0 | 1-36                    
+ src/modules/hcm-sync          |   16.89 |        0 |       0 |   16.89 |                         
+  hcm-client.service.js        |   18.75 |        0 |       0 |   18.75 | 19-136                  
+  hcm-sync-log.entity.js       |     100 |      100 |     100 |     100 |                         
+  hcm-sync.controller.js       |       0 |        0 |       0 |       0 | 10-70                   
+  hcm-sync.module.js           |       0 |      100 |     100 |       0 | 1-28                    
+  hcm-sync.service.js          |   18.18 |        0 |       0 |   18.18 | 31-280                  
+ src/modules/hcm-sync/dto      |       0 |      100 |     100 |       0 |                         
+  index.js                     |       0 |      100 |     100 |       0 | 13                      
+ src/modules/leave-request     |   63.69 |    70.27 |      40 |   64.13 |                         
+  leave-request.controller.js  |       0 |        0 |       0 |       0 | 12-113                  
+  leave-request.entity.js      |     100 |      100 |     100 |     100 |                         
+  leave-request.module.js      |       0 |      100 |       0 |       0 | 1-33                    
+  leave-request.service.js     |   87.37 |    76.47 |   66.66 |   88.23 | 178,195,266-291,349-352 
+ src/modules/leave-request/dto |       0 |      100 |     100 |       0 |                         
+  index.js                     |       0 |      100 |     100 |       0 | 28                      
+-------------------------------|---------|----------|---------|---------|-------------------------
+
+Test Suites: 4 passed, 4 total
+Tests:       60 passed, 60 total
+Snapshots:   0 total
+Time:        5.909 s
+Ran all test suites.
