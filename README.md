@@ -128,7 +128,12 @@ npm run test:e2e
 # With coverage
 npm run test:cov
 
-Coverage report will be generated in the `/coverage` directory.
+Coverage report will be generated in the `/coverage` directory:
+- `lcov-report/index.html` - HTML coverage report (open in browser to view)
+- `lcov-report/src/` - Per-file coverage details
+- `clover.xml` - Clover format for CI tools
+- `lcov.info` - LCOV format for coverage tools
+- `coverage-final.json` - JSON format for tools
 ```
 
 ### Test Coverage
