@@ -1,5 +1,7 @@
 # Time-Off Microservice
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/UzayrSajjad/wizdaa-assessment)
+
 A production-grade NestJS (JavaScript) microservice for managing employee leave requests, balances, and HCM system synchronization.
 
 ## Architecture
