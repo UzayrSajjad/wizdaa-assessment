@@ -1,5 +1,7 @@
 # Time-Off Microservice
 
+GitHub: https://github.com/UzayrSajjad/wizdaa-assessment
+
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/UzayrSajjad/wizdaa-assessment)
 
 A production-grade NestJS (JavaScript) microservice for managing employee leave requests, balances, and HCM system synchronization.
@@ -125,6 +127,8 @@ npm run test:e2e
 
 # With coverage
 npm run test:cov
+
+Coverage report will be generated in the `/coverage` directory.
 ```
 
 ### Test Coverage
